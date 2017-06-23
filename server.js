@@ -8,10 +8,7 @@ var app = express();
 var server = http.createServer(app);
 server.listen(3000);
 
-app.get('/', function (req, res, next) {
-  console.log('(all)recv request:',req.url);
-  res.send('hi i am xun');
-});
+app.use('/', express.static('public'));
 app.use(express.query());
 
 webconsole.init(server); //step 2
