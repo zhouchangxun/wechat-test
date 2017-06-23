@@ -1,0 +1,31 @@
+{
+  "author": {
+    "name": "changxun"
+  },
+  "dependencies": {
+    "webconsole": "zhouchangxun/webconsole",
+    "wechat": "*",
+    "express": "*"
+  },
+  "description": "wechat test",
+  "devDependencies": {
+  },
+  "keywords": [
+    "weixin",
+    "wechat"
+  ],
+  "license": "MIT",
+  "main": "server.js",
+  "name": "wechat-test",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zhouchangxun/wechat-test.git"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "6.x"
+  },
+  "version": "1.0.0"
+}
